@@ -1,13 +1,14 @@
 {
-  "name": "generated-theme",
-  "displayName": "Generated Theme",
-  "publisher": "your-name",
+  "name": "amberglow",
+  "displayName": "AmberGlow",
+  "publisher": "StevenHadley",
   "description": "A generated theme for Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "license": "MIT",
   "scripts": {
     "prestart": "tsc index.ts",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dist": "vsce package"
   },
   "engines": {
     "vscode": "^1.11.0"
@@ -18,7 +19,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Generated theme",
+        "label": "AmberGlow",
         "uiTheme": "vs-dark",
         "path": "./theme.json"
       }
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@types/node": "^7.0.10",
     "typescript": "^2.2.1",
+    "eslint": "^5.13.0",
     "vscode-theme-generator": "*"
   }
 }
