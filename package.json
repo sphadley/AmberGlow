@@ -1,9 +1,10 @@
 {
   "name": "amberglow",
   "displayName": "AmberGlow",
-  "publisher": "StevenHadley",
+  "publisher": "sphadley",
   "description": "A generated theme for Visual Studio Code",
-  "version": "0.0.9",
+  "repository": "https://github.com/sphadley/AmberGlow",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "prestart": "tsc index.ts",
