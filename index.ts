@@ -31,8 +31,8 @@ const colorSet: IColorSet = {
 		selection: colors.faded,
 	},
 	terminal: {
-		black: colors.background,
-		brightBlack: colors.background,
+		black: colors.darkAmber,
+		brightBlack: colors.darkAmber,
 		red: colors.darkAmber,
 		brightRed: colors.yellow,
 		green: colors.green,

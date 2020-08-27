@@ -4,7 +4,7 @@
   "publisher": "sphadley",
   "description": "A generated theme for Visual Studio Code",
   "repository": "https://github.com/sphadley/AmberGlow",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "license": "MIT",
   "scripts": {
     "prestart": "tsc index.ts",
