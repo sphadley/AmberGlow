@@ -4,8 +4,9 @@
   "publisher": "sphadley",
   "description": "A generated theme for Visual Studio Code",
   "repository": "https://github.com/sphadley/AmberGlow",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "license": "MIT",
+  "icon": "images/icon.png",
   "scripts": {
     "prestart": "tsc index.ts",
     "start": "node index.js",
